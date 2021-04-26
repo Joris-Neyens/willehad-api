@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "courses",
   "info": {
-    "name": "courses"
+    "name": "courses",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -43,6 +44,18 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "teacher": {
+      "type": "string"
+    },
+    "teacher_description": {
+      "type": "richtext"
+    },
+    "practical_info": {
+      "type": "richtext"
     }
   }
 }
