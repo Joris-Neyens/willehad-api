@@ -25,6 +25,14 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/courses/slug",
+      "handler": "courses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "POST",
       "path": "/courses",
       "handler": "courses.create",
