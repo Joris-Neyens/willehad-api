@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "review_name": {
+      "type": "string"
+    },
+    "review_title": {
+      "type": "string"
+    },
+    "review": {
+      "type": "richtext"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "homes",
   "info": {
-    "name": "home"
+    "name": "home",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "header_title": {
       "type": "string"
     },
-    "header": {
+    "header_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -26,11 +27,32 @@
       "required": false,
       "pluginOptions": {}
     },
-    "subtitle": {
+    "header_subtitle": {
       "type": "string"
     },
-    "description": {
+    "header_date": {
       "type": "string"
+    },
+    "course_date": {
+      "type": "string"
+    },
+    "course_title": {
+      "type": "string"
+    },
+    "course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "course_description": {
+      "type": "richtext"
     }
   }
 }

@@ -56,6 +56,26 @@
     },
     "practical_info": {
       "type": "richtext"
+    },
+    "teacher_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "curriculum": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reviews.reviews"
     }
   }
 }
