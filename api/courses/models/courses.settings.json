@@ -76,6 +76,9 @@
       "type": "component",
       "repeatable": false,
       "component": "reviews.reviews"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
