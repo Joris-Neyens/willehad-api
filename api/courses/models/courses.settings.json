@@ -69,16 +69,26 @@
       "required": false,
       "pluginOptions": {}
     },
-    "curriculum": {
+    "slug": {
       "type": "string"
     },
     "reviews": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reviews.reviews"
+      "type": "dynamiczone",
+      "components": [
+        "reviews.reviews"
+      ]
     },
-    "slug": {
-      "type": "string"
+    "curriculum": {
+      "type": "dynamiczone",
+      "components": [
+        "list.curriculum"
+      ]
+    },
+    "catergories": {
+      "type": "dynamiczone",
+      "components": [
+        "topics.topics"
+      ]
     }
   }
 }

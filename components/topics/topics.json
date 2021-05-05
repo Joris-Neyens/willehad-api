@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_topics_topics",
+  "info": {
+    "name": "topics",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "geschiedenis": {
+      "type": "boolean"
+    },
+    "filosofie": {
+      "type": "boolean"
+    },
+    "theologie": {
+      "type": "boolean"
+    },
+    "catechese": {
+      "type": "boolean"
+    },
+    "bijbel_studie": {
+      "type": "boolean"
+    }
+  }
+}
