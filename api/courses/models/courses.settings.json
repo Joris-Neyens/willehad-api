@@ -84,7 +84,7 @@
         "list.curriculum"
       ]
     },
-    "catergories": {
+    "categories": {
       "type": "dynamiczone",
       "components": [
         "topics.topics"
