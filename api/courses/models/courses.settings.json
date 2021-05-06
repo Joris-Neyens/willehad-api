@@ -78,7 +78,7 @@
         "reviews.reviews"
       ]
     },
-    "categories": {
+    "categorie": {
       "type": "dynamiczone",
       "components": [
         "topics.topics"
