@@ -18,7 +18,15 @@
     },
     {
       "method": "GET",
-      "path": "/courses/:slug",
+      "path": "/courses/:id",
+      "handler": "courses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/courses/slug/:slug",
       "handler": "courses.findOne",
       "config": {
         "policies": []
