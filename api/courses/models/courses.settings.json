@@ -78,17 +78,14 @@
         "reviews.reviews"
       ]
     },
-    "curriculum": {
-      "type": "dynamiczone",
-      "components": [
-        "list.curriculum"
-      ]
-    },
     "categories": {
       "type": "dynamiczone",
       "components": [
         "topics.topics"
       ]
+    },
+    "curriculum": {
+      "type": "richtext"
     }
   }
 }
