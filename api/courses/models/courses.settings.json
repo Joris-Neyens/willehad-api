@@ -90,7 +90,7 @@
     "category_catechesis": {
       "type": "boolean"
     },
-    "category_bible_studie": {
+    "category_bible_study": {
       "type": "boolean"
     },
     "category_theology": {
