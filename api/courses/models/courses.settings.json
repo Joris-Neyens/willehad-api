@@ -78,14 +78,23 @@
         "reviews.reviews"
       ]
     },
-    "categorie": {
-      "type": "dynamiczone",
-      "components": [
-        "topics.topics"
-      ]
-    },
     "curriculum": {
       "type": "richtext"
+    },
+    "category_history": {
+      "type": "boolean"
+    },
+    "category_philosophy": {
+      "type": "boolean"
+    },
+    "category_catechesis": {
+      "type": "boolean"
+    },
+    "category_bible_studie": {
+      "type": "boolean"
+    },
+    "category_theology": {
+      "type": "boolean"
     }
   }
 }
