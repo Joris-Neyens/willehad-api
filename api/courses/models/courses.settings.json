@@ -95,6 +95,18 @@
     },
     "category_theology": {
       "type": "boolean"
+    },
+    "type_audio": {
+      "type": "boolean"
+    },
+    "type_video": {
+      "type": "boolean"
+    },
+    "type_webinar": {
+      "type": "boolean"
+    },
+    "type_course": {
+      "type": "boolean"
     }
   }
 }
