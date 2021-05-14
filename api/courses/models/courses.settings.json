@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "description_long": {
       "type": "richtext"
     },
     "price": {
@@ -54,7 +54,7 @@
     "teacher_description": {
       "type": "richtext"
     },
-    "practical_info": {
+    "practical_info_1": {
       "type": "richtext"
     },
     "teacher_image": {
@@ -107,6 +107,36 @@
     },
     "type_course": {
       "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "practical_info_2": {
+      "type": "richtext"
+    },
+    "episodes": {
+      "type": "integer"
+    },
+    "description_short": {
+      "type": "richtext"
+    },
+    "about_course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
