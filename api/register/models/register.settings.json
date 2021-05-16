@@ -18,14 +18,13 @@
     "email": {
       "type": "string"
     },
-    "group": {
-      "type": "enumeration",
-      "enum": [
-        "group_own",
-        "group_existing"
-      ]
-    },
     "newsletter": {
+      "type": "boolean"
+    },
+    "group_own": {
+      "type": "boolean"
+    },
+    "group_existing": {
       "type": "boolean"
     }
   }
