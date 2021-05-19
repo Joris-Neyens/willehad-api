@@ -27,6 +27,9 @@
         "group_own",
         "group_existing"
       ]
+    },
+    "course_name": {
+      "type": "string"
     }
   }
 }
