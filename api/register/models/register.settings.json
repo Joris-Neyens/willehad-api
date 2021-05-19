@@ -28,7 +28,7 @@
         "group_existing"
       ]
     },
-    "course_name": {
+    "course_title": {
       "type": "string"
     }
   }
