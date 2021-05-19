@@ -21,11 +21,12 @@
     "newsletter": {
       "type": "boolean"
     },
-    "group_own": {
-      "type": "boolean"
-    },
-    "group_existing": {
-      "type": "boolean"
+    "group": {
+      "type": "enumeration",
+      "enum": [
+        "group_own",
+        "group_existing"
+      ]
     }
   }
 }
