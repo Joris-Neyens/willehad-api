@@ -72,12 +72,6 @@
     "slug": {
       "type": "string"
     },
-    "reviews": {
-      "type": "dynamiczone",
-      "components": [
-        "reviews.reviews"
-      ]
-    },
     "curriculum": {
       "type": "richtext"
     },
