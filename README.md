@@ -1,3 +1,6 @@
-# Strapi application
+Welcome to the website for Willehad
 
-A quick description of your strapi application
+For admin access got to /admin
+
+email: admin@admin.com
+password: pass1234
