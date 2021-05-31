@@ -53,6 +53,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "challenge": {
+      "type": "richtext"
+    },
+    "solution": {
+      "type": "richtext"
     }
   }
 }
