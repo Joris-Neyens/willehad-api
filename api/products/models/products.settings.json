@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image_url": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
