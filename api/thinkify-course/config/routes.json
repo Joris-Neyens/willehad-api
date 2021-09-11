@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thinkify-courses",
+      "handler": "thinkify-course.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thinkify-courses/count",
+      "handler": "thinkify-course.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thinkify-courses/:id",
+      "handler": "thinkify-course.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thinkify-courses",
+      "handler": "thinkify-course.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thinkify-courses/:id",
+      "handler": "thinkify-course.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thinkify-courses/:id",
+      "handler": "thinkify-course.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
