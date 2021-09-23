@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reviews",
   "info": {
-    "name": "review"
+    "name": "review",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,6 +20,9 @@
     },
     "review": {
       "type": "richtext"
+    },
+    "rating": {
+      "type": "integer"
     }
   }
 }
