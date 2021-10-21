@@ -45,77 +45,14 @@
       "required": false,
       "pluginOptions": {}
     },
-    "featured": {
-      "type": "boolean"
-    },
-    "teacher": {
-      "type": "string"
-    },
-    "teacher_description": {
-      "type": "richtext"
-    },
     "practical_info_1": {
       "type": "richtext"
-    },
-    "teacher_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "slug": {
-      "type": "string"
-    },
-    "curriculum": {
-      "type": "richtext"
-    },
-    "category_history": {
-      "type": "boolean"
-    },
-    "category_philosophy": {
-      "type": "boolean"
-    },
-    "category_catechesis": {
-      "type": "boolean"
-    },
-    "category_bible_study": {
-      "type": "boolean"
-    },
-    "category_theology": {
-      "type": "boolean"
-    },
-    "type_audio": {
-      "type": "boolean"
-    },
-    "type_video": {
-      "type": "boolean"
-    },
-    "type_webinar": {
-      "type": "boolean"
-    },
-    "type_course": {
-      "type": "boolean"
-    },
-    "category": {
-      "type": "string"
-    },
-    "type": {
-      "type": "string"
     },
     "subtitle": {
       "type": "string"
     },
     "practical_info_2": {
       "type": "richtext"
-    },
-    "episodes": {
-      "type": "integer"
     },
     "description_short": {
       "type": "richtext"
@@ -132,7 +69,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "whitepaper": {
+    "cover_video": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
